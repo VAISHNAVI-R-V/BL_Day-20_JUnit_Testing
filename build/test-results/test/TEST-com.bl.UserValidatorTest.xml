@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bl.UserValidatorTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2021-09-16T11:37:05" hostname="LAPTOP-GDO34K0C" time="0.388">
+  <properties/>
+  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue()" classname="com.bl.UserValidatorTest" time="0.075"/>
+  <testcase name="givenEmail_WhenUserNameIsMissing_ShouldReturnFalse()" classname="com.bl.UserValidatorTest" time="0.031"/>
+  <testcase name="givenPassword_WhenWithAtLeastOneNumericNumber_ShouldReturnTrue()" classname="com.bl.UserValidatorTest" time="0.01"/>
+  <testcase name="givenMobileNumber_WhenValid_ShouldReturnTrue()" classname="com.bl.UserValidatorTest" time="0.002"/>
+  <testcase name="givenLastName_WhenShort_ShouldReturnFalse()" classname="com.bl.UserValidatorTest" time="0.007"/>
+  <testcase name="givenLastName_WhenStartingWithSmallLetter_ShouldReturnFalse()" classname="com.bl.UserValidatorTest" time="0.02"/>
+  <testcase name="givenPassword_WhenValid_ShouldReturnTrue()" classname="com.bl.UserValidatorTest" time="0.01"/>
+  <testcase name="givenPassword_WhenWithAtLeastOneSpecialCharacters_ShouldReturnTrue()" classname="com.bl.UserValidatorTest" time="0.007"/>
+  <testcase name="givenEmail_WhenValid_ShouldReturnTrue()" classname="com.bl.UserValidatorTest" time="0.007"/>
+  <testcase name="givenPassword_WhenShort_ShouldReturnFalse()" classname="com.bl.UserValidatorTest" time="0.005"/>
+  <testcase name="givenLastName_WhenWithNumberOrSpecialCharacters_ShouldReturnFalse()" classname="com.bl.UserValidatorTest" time="0.003"/>
+  <testcase name="givenLastName_WhenProper_ShouldReturnTrue()" classname="com.bl.UserValidatorTest" time="0.015"/>
+  <testcase name="givenPassword_WhenWithAtLeastOneUpperCase_ShouldReturnTrue()" classname="com.bl.UserValidatorTest" time="0.01"/>
+  <testcase name="givenMobileNumber_WhenNoCountryCode_ShouldReturnFalse()" classname="com.bl.UserValidatorTest" time="0.003"/>
+  <testcase name="givenEmail_WhenMainTldIsMissing_ShouldReturnFalse()" classname="com.bl.UserValidatorTest" time="0.008"/>
+  <testcase name="givenEmail_WhenDomainNameIsMissing_ShouldReturnFalse()" classname="com.bl.UserValidatorTest" time="0.005"/>
+  <testcase name="givenEmail_WhenWithOptionalTld_ShouldReturnTrue()" classname="com.bl.UserValidatorTest" time="0.004"/>
+  <testcase name="givenEmail_WhenAtTheRateIsMissing_ShouldReturnFalse()" classname="com.bl.UserValidatorTest" time="0.006"/>
+  <testcase name="givenMobileNumber_WhenShort_ShouldReturnFalse()" classname="com.bl.UserValidatorTest" time="0.004"/>
+  <testcase name="givenFirstName_WhenShort_ShouldReturnFalse()" classname="com.bl.UserValidatorTest" time="0.004"/>
+  <testcase name="givenMobileNumber_WhenSpaceIsMissingAfterCountryCode_ShouldReturnFalse()" classname="com.bl.UserValidatorTest" time="0.019"/>
+  <testcase name="givenFirstName_WhenWithNumberOrSpecialCharacters_ShouldReturnFalse()" classname="com.bl.UserValidatorTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
