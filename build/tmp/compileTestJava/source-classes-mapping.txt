@@ -1,2 +1,4 @@
 com/bl/UserValidatorTest.java
  com.bl.UserValidatorTest
+com/bl/EmailValidateTest.java
+ com.bl.EmailValidateTest
